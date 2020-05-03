@@ -8,5 +8,17 @@
     <artifactId>screenTypeFingersHack</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <maven.compiler.target>1.14</maven.compiler.target>
+        <maven.compiler.source>1.14</maven.compiler.source>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.asprise.ocr</groupId>
+            <artifactId>java-ocr-api</artifactId>
+            <version>[15,)</version>
+        </dependency>
+    </dependencies>
 
 </project>
