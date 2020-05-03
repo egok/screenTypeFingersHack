@@ -135,18 +135,6 @@ public class typeItAway {
                 READ_AREA_COORDINATE_Y,
                 READ_AREA_COORDINATE_WIDTH,
                 READ_AREA_COORDINATE_HEIGHT);
-
-        //Testing if image is created with the right area
-
-        try {
-            ImageIO.write(lRobot.createScreenCapture(rectangle), "bmp",
-                    new File("C:\\Users\\Gokul\\IdeaProjects\\screenTypeFingersHack\\src\\main\\resources\\test1.bmp"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        // Testing end
-
         return lRobot.createScreenCapture(rectangle);
     }
 
